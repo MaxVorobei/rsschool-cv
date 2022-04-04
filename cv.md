@@ -40,3 +40,33 @@
       **System Administrator**\
       **_BSUIR_**\
       Maintained university department computer system, technical support of video conferences, maintained and updated the department's website.
+
+1. **Certification**\
+   *2018*\
+   Certified Windows System Administrator
+
+   *2019*\
+   Linux System Administrator Basics
+
+   *2021*\
+   ITVDN Git Basics
+
+1. **Languages**
+   *English* - A2 *(Pre-Intermediate)*
+   Right now I’m on my way to B1, actively studying English at SkyEng school.
+   *Russian* - native speaker.
+
+1.  **Education**\
+   *2022*\
+   **BSU - Student**\
+   Mehanics and Mathematics Faculty - Mathematics and Information Technologies    
+
+   *2021*\
+   **Udemy**\
+   [Интенсивное погружение в JavaScript](https://www.udemy.com/course/intensive-js/)
+   [Полный курс по JavaScript + React - с нуля до результата](https://www.udemy.com/course/javascript_full/)
+
+   *2020*\
+   **BNTU - Student**\
+   Faculty of Information Technologies and Robotics - Speciality “Information Technologies Software Support   
+   *Unfortunately I failed to pass the last session in 5th grade and got excluded. It was not possible to be reinstated in BNTU because there were no slots available, so I entered BSU from the start.*
