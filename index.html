@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>CV by Maxim Vorobey</title>
+</head>
+<body>
+   <header class="grid__container">
+      <div class="grid__item avatar header">
+         <img class="avatar__image" src="./assets/MyAva.jpg" alt="Maxim Vorobey">
+      </div>
+      <div class="grid__item header">
+         <h1>Maxim Vorobey</h1>
+         <p>Junior JavaScript Developer | Trainee</p>
+         <nav>
+            <ul>
+               <li class="navlist"><a href="#contact">Contact</a></li>
+               <li class="navlist"><a href="#summary">Summary</a></li>
+               <li class="navlist"><a href="#skills">Skills</a></li>
+               <li class="navlist"><a href="#code">Code Example</a></li>
+               <li class="navlist"><a href="#lang">Language</a></li>
+               <li class="navlist"><a href="#education">Education</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+
+   <main class="grid__container">
+      <div class="grid__item">
+         <h2 id="contact">Contact</h2>
+         <ul>
+            <li><strong><i>e-mail:</i></strong>      <a href="mailto:maxvorobei15@gmail.com">maxvorobei15@gmail.com</a></li>
+            <li><strong><i>phone:</i></strong>    +48 500 175 047</li>
+            <li><strong><i>telegram:</i></strong>    <a href="https://t.me/MaV15m">@mav15.m</a></li>
+            <li><strong><i>discord name:</i></strong>    MaxVorobei (@MaxVorobei)</li>
+         </ul>
+      </div>
+      <div class="grid__item">
+         <h2 id="summary">Summary</h2>
+         <p>I am a Novice Front-end Developer who studied in Rolling Scopes school and on Udemy front-end courses. Recently I moved to Wroclaw, Poland, and looking for a job. Previously I worked as a System Administrator with 3+ years of experience with Windows and Linux.</p>
+      </div>
+      <div class="grid__item">
+         <h2 id="skills">Skills</h2>
+         <ul>
+            <li><strong>HTML</strong>      Novice</li>
+            <li><strong>CSS</strong>     Novice</li>
+            <li><strong>Git</strong>      Novice</li>
+            <li><strong>Windows</strong>   Advanced</li>
+            <li><strong>Linux</strong>    Intermediate</li>
+         </ul>
+      </div>
+      <div class="grid__item">
+         <h2 id="code">Code Example</h2>
+         <div>
+            <h3>Convert Hash To An Array</h3>
+            <pre>
+               <code class="js">
+                  function convertHashToArray(hash){
+                     const result = [];
+                     for (var data in hash) {
+                           result.push([data, hash[data]])
+                     }
+                     return result.sort((a, b) => {
+                     if (a[0] > b[0]) {
+                           return 1;
+                     }
+                     if (a[0] &lt; b[0]) {
+                           return -1;
+                     }
+                     return 0;
+                     })
+                     }
+               </code>
+            </pre>
+         </div>
+
+         <div class="article-p">
+            <p><strong>Museum project for RS Pre school</strong></p>
+            <a href="https://rolling-scopes-school.github.io/maxvorobei-JSFEPRESCHOOL/museum/" target="_blank">Link to project</a>
+            <p><em>Technologies</em>: HTML5, CSS3</p>
+         </div>
+      </div>
+
+      <div class="grid__item">
+         <h2 id="lang">Language</h2>
+         <div>
+            <h3>English</h3>
+            <p>A2 (Pre-Intermediate)</p>
+         </div>
+         <h3>Russian </h3>
+         <p>native speaker</p>
+      </div>
+
+      <div class="grid__item">
+         <h2 id="education">Education</h2>
+         <p>2025</p>
+         <p><strong><u>Student</u></strong></p>
+         <p><i>BSU</i></p>
+         <p>Mehanics and Mathematics Faculty - Mathematics and Information Technologies</p>
+
+         <p>2020</p>
+         <p><strong><u>Student</u></strong></p>
+         <p><i>BNTU</i></p>
+         <p>(unfinished, full 4 grades)</p>
+         <p>Faculty of Information Technologies and Robotics - Information Technologies Software Support</p>
+         <p><i>Unfortunately I failed to pass the last session in 5th grade and got excluded. It was not possible to be reinstated in BNTU because there were no slots available, so I entered BSU from the start.</i></p>
+      </div>
+
+   </main>
+
+   <footer>
+      <div>
+         <span><a href="https://github.com/MaxVorobei" target="_blank"><img src="./assets/GitHub_Logo.png" alt="Github" height="50"></a></span>
+         <h2><strong>2022</strong></h2>
+         <span><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" height="50"></a></span>
+      </div>
+   </footer>
+</body>
+</html>
